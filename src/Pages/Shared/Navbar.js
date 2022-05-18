@@ -5,7 +5,7 @@ import './Navbar.css'
 const Navbar = () => {
     return (
         <div className="image-opacity">
-            <div class="navbar bg-base-200 fixed top-0 px-20">
+            <div class="navbar bg-base">
                 <div class="navbar-start">
                     <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
