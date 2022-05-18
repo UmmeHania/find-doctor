@@ -11,7 +11,7 @@ import Services from './Services';
 
 const Home = () => {
     return (
-        <div className='px-12'>
+        <div className=''>
             <Landing></Landing>
             <Info></Info>
             <Services></Services>
