@@ -2,7 +2,7 @@ import React from 'react';
 
 const PrimaryButton = ({ children }) => {
     return (
-        <button class="btn btn-primary bg-gradient-to-r from-secondary to-primary px-12">{children}</button>
+        <button className="btn btn-primary bg-gradient-to-r from-secondary to-primary px-12">{children}</button>
     );
 };
 

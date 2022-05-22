@@ -4,7 +4,7 @@ import AppointmentBanner from './AppointmentBanner';
 import AvailableAppointments from './AvailableAppointments';
 
 const Appointment = () => {
-    const [date, setDate] = useState(new Date());
+    const [date, setDate] = useState(new Date()); //uplift state to siblings (available Appointment from Appointment banner)
     return (
         <div>
             <AppointmentBanner date={date} setDate={setDate}></AppointmentBanner>

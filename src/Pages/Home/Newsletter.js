@@ -5,26 +5,26 @@ import PrimaryButton from '../Shared/PrimaryButton';
 const Newsletter = () => {
     return (
         <div>
-            <div class="hero min-h-screen" style={{ background: `url(${appointment})` }}>
+            <div className="hero min-h-screen" style={{ background: `url(${appointment})` }}>
 
-                <div class="">
-                    <div class="hero-content flex-col">
-                        <h1 class="text-3xl font-bold text-primary ">Contact Us</h1>
-                        <p class="text-4xl text-white">Stay Connected with Us</p>
+                <div className="">
+                    <div className="hero-content flex-col">
+                        <h1 className="text-3xl font-bold text-primary ">Contact Us</h1>
+                        <p className="text-4xl text-white">Stay Connected with Us</p>
                     </div>
-                    <div class="card flex-shrink-0 w-[400px] max-w-sm shadow-2xl bg-base-100">
-                        <div class="card-body">
-                            <div class="form-control">
-                                <input type="text" placeholder="Your Name" class="input input-bordered " />
-                            </div>
-                            <div class="form-control">
-                                <input type="text" placeholder="Email Address" class="input input-bordered" />
+                    <div className="card flex-shrink-0 w-[400px] max-w-sm shadow-2xl bg-base-100">
+                        <div className="card-body">
+                            <div className="form-control">
+                                <input type="text" placeholder="Your Name" className="input input-bordered " />
                             </div>
                             <div className="form-control">
-                                <input type="text" placeholder="Your Message" class="input input-bordered" />
+                                <input type="text" placeholder="Email Address" className="input input-bordered" />
+                            </div>
+                            <div className="form-control">
+                                <input type="text" placeholder="Your Message" className="input input-bordered" />
                             </div>
 
-                            <div class="text-center">
+                            <div className="text-center">
                                 <PrimaryButton>submit</PrimaryButton>
                             </div>
                         </div>
